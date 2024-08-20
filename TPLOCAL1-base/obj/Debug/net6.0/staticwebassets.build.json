@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0u6Qz8CuznTcwPTAGKOtd+Ge1ww8/YlH8uKVlJPqI8E=",
+  "Hash": "ZoayiROxR1JFW+eLqDtjZScmNo6F0ium0IxWqzjDFGs=",
   "Source": "TPLOCAL1",
   "BasePath": "_content/TPLOCAL1",
   "Mode": "Default",
@@ -10,17 +10,34 @@
     {
       "Name": "TPLOCAL1\\wwwroot",
       "Source": "TPLOCAL1",
-      "ContentRoot": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\",
       "BasePath": "_content/TPLOCAL1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\wwwroot\\resources\\Form.css",
+      "Identity": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\resources\\Avis.css",
       "SourceId": "TPLOCAL1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\",
+      "BasePath": "_content/TPLOCAL1",
+      "RelativePath": "resources/Avis.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resources\\Avis.css"
+    },
+    {
+      "Identity": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\resources\\Form.css",
+      "SourceId": "TPLOCAL1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\",
       "BasePath": "_content/TPLOCAL1",
       "RelativePath": "resources/Form.css",
       "AssetKind": "All",
@@ -34,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\Form.css"
     },
     {
-      "Identity": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\wwwroot\\resources\\GroupeHN.png",
+      "Identity": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\resources\\GroupeHN.png",
       "SourceId": "TPLOCAL1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\",
       "BasePath": "_content/TPLOCAL1",
       "RelativePath": "resources/GroupeHN.png",
       "AssetKind": "All",
@@ -51,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\GroupeHN.png"
     },
     {
-      "Identity": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\wwwroot\\resources\\index.css",
+      "Identity": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\resources\\index.css",
       "SourceId": "TPLOCAL1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\wwwroot\\",
       "BasePath": "_content/TPLOCAL1",
       "RelativePath": "resources/index.css",
       "AssetKind": "All",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\TPLOCAL1.csproj": {}
+    "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\TPLOCAL1.csproj": {
+    "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\TPLOCAL1.csproj",
+        "projectUniqueName": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj",
         "projectName": "TPLOCAL1",
-        "projectPath": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\TPLOCAL1.csproj",
+        "projectPath": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj",
         "packagesPath": "C:\\Users\\Formation\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Formation\\source\\repos\\TPLOCAL1-base\\obj\\",
+        "outputPath": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Formation\\AppData\\Roaming\\NuGet\\NuGet.Config",

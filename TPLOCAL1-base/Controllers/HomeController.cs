@@ -21,11 +21,13 @@ namespace TPLOCAL1.Controllers
                 //Call different pages, according to the id pass as parameter
                 switch (id)
                 {
-                    case "OpinionList":
+                    case "Avis":
                         //TODO : code reading of the xml files provide
                         return View(id);
                     case "Form":
                         //TODO : call the Form view with data model empty
+                        return View(id);
+                    case "Validation":
                         return View(id);
                     default:
                         //retourn to the Index view (see routing in Program.cs)
