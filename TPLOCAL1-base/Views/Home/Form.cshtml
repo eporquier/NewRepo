@@ -1,0 +1,113 @@
+﻿<head>
+    <link rel="stylesheet" href="~/resources/index.css" />
+    <link rel="stylesheet" href="~/resources/Form.css" />
+
+    <title>HN - FORMULAIRE</title>
+</head>
+
+
+<body>
+    <img src="~/resources/GroupeHN.png" class="image" alt="GroupeHN" />
+    <header>
+        Page de formulaire
+    </header>
+    <br />
+    <nav>
+        <ul>
+            <li><a href="/Home/Index/Index">Accueil</a></li>
+            <li><a href="/Home/Index/Avis">Avis list</a></li>
+        </ul>
+    </nav>
+
+
+    <section>
+    <table>
+        <tr>
+            <th colspan="2" align="center">Personal information</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name" name="name" required minlength="3" maxlength="30" size="32" placeholder="Type your name"/></td>
+            </tr>
+            <tr>
+                <td>Forname</td>
+                <td><input type="text" id="forname" name="forname" required minlength="3" maxlength="30" size="32" placeholder="Type your forname" /></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                        <select name="gender" id="gender">
+                            <option value="Select a gender">Select a gender</option>
+                            <option value="Man">Man</option>
+                            <option value="Woman">Woman</option>
+                            <option value="Other">Other</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" id="address" name="address" required minlength="3" maxlength="30" size="32" placeholder="Type your address" /></td>
+            </tr>
+            <tr>
+                <td>Zip code</td>
+                <td><input type="text" id="zip code" name="zip code" required minlength="3" maxlength="30" size="32" placeholder="Type your ZIP code" /></td>
+            </tr>
+            <tr>
+                <td>Town</td>
+                <td><input type="text" id="town" name="town" required minlength="3" maxlength="30" size="32" placeholder="Type your Town" /></td>
+            </tr>
+            <tr>
+                <td>Email address</td>
+                <td><input type="email" id="email" name="email" required minlength="3" maxlength="30" size="32" placeholder="Type your email" /></td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br />
+
+        <table>
+        <tr>
+            <th colspan="2" align="center">Training information</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Start training date</td>
+                <td><input type="date" id="date" name="date" required placeholder="Type date of start"/></td>
+            </tr>
+            <tr>
+                <td>Type of training</td>
+                <td>
+                        <select name="course" id="course">
+                            <option value="Select a course">Select a course</option>
+                            <option value="Cobol">Cobol Training</option>
+                            <option value="Object">Object training</option>
+                            <option value="Dual">Dual skills training</option>
+                        </select>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br />
+
+        <table>
+            <tr>
+                <th colspan="2" align="center">Training review</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Cobol training</td>
+                    <td><input type="text" id="coboltraining" name="coboltraining" required minlength="3" maxlength="30" size="32"/></td>
+                </tr>
+                <tr>
+                    <td>Training Purpose</td>
+                    <td><input type="text" id="name" name="name" required minlength="3" maxlength="30" size="32"/></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+
+</body>
