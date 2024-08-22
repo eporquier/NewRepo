@@ -25,8 +25,8 @@ namespace TPLOCAL1.Controllers
                         //TODO : code reading of the xml files provide
                         return View(id);
                     case "Form":
-                        //TODO : call the Form view with data model empty
-                        return View(id);
+                        return View("Form", new FormModel());
+                   
                     case "Avis":
                         return View(id);
                     case "Validation":
@@ -41,13 +41,18 @@ namespace TPLOCAL1.Controllers
 
         //methode to send datas from form to validation page
         [HttpPost]
-        public ActionResult ValidationFormulaire(/*model*/)
+        public ActionResult ValidationFormulaire(FormModel model)
         {
-            //TODO : test if model's fields are set
-            //if not, display an error message and stay on the form page
-            //else, call ValidationForm with the datas set by the user
-            return null;
-
+            if (ModelState.IsValid)
+            {
+                // Pass the form data to the "Validation" view
+                return View("Validation", model);
+            }
+            else
+            {
+                // If model state is invalid, return to the form with validation errors
+                return View("Form", model);
+            }
         }
     }
 }
