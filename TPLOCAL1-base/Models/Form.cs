@@ -1,12 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text;
 
+
 namespace TPLOCAL1.Models
 {
     public class FormModel
     {
-        [Required(ErrorMessage = "Veuillez saisir votre nom")]
-        [StringLength(30, MinimumLength = 4, ErrorMessage = "Le nom de famille doit être compris entre 4 et 30 caractères ")]
+        //[Required(ErrorMessage = "Veuillez saisir votre nom")]
+        //[StringLength(30, MinimumLength = 4, ErrorMessage = "Le nom de famille doit être compris entre 4 et 30 caractères ")]
         public string Name { get; set; }
 
         //[Required(ErrorMessage = "Veuillez saisir votre prénom")]

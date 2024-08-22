@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting.Server;
+using Microsoft.AspNetCore.Mvc;
 
 using TPLOCAL1.Models;
 
@@ -21,14 +22,15 @@ namespace TPLOCAL1.Controllers
                 //Call different pages, according to the id pass as parameter
                 switch (id)
                 {
-                    case "OpinionList":
-                        //TODO : code reading of the xml files provide
-                        return View(id);
                     case "Form":
                         return View("Form", new FormModel());
                    
                     case "Avis":
-                        return View(id);
+                        {
+                            List<Opinion> opinionList = new OpinionList().GetAvis("XlmFiles/DataAvis.xml");
+                            ViewBag.opinionList = opinionList;
+                            return View(id);
+                        }
                     case "Validation":
                         return View(id);
                     default:
@@ -39,18 +41,16 @@ namespace TPLOCAL1.Controllers
         }
 
 
-        //methode to send datas from form to validation page
         [HttpPost]
         public ActionResult ValidationFormulaire(FormModel model)
         {
             if (ModelState.IsValid)
             {
-                // Pass the form data to the "Validation" view
+
                 return View("Validation", model);
             }
             else
             {
-                // If model state is invalid, return to the form with validation errors
                 return View("Form", model);
             }
         }

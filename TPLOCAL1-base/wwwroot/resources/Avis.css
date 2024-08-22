@@ -21,3 +21,50 @@ table {
 .style1{
     font-weight: bold;
 }
+body {
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    margin-right: 170px;
+    margin-left: 170px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+Nav {
+    width: 150px;
+    border: 2px solid #8c014c;
+    background-color: #8c014c;
+    color: white;
+    float: left;
+}
+
+section, container {
+    margin-left: 170px;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: chocolate;
+}
+.opinion-oui {
+    background-color: green;
+    color: white;
+}
+
+.opinion-non {
+    background-color: red;
+    color: white;
+}
