@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erefe\\source\\repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj": {}
+    "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erefe\\source\\repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj": {
+    "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erefe\\source\\repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj",
+        "projectUniqueName": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj",
         "projectName": "TPLOCAL1",
-        "projectPath": "C:\\Users\\erefe\\source\\repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj",
-        "packagesPath": "C:\\Users\\erefe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erefe\\source\\repos\\NewRepo\\TPLOCAL1-base\\obj\\",
+        "projectPath": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\TPLOCAL1.csproj",
+        "packagesPath": "C:\\Users\\Formation\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Formation\\Source\\Repos\\NewRepo\\TPLOCAL1-base\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\erefe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Formation\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
